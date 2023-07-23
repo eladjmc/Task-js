@@ -4,7 +4,7 @@
 ### It is a very simple app with only HTML+CSS+JavaScript.
 
 ## features
-* All images are "solid" 2d objects and you can't move and image via another image.
+* All images are "solid" 2d objects and you can't move an image via another image.
 * The border is also a border(yes!😂) you cant go off borders.
 * If there are too many images and there is no more space the game will alert you so when trying to add an image.
 * Auto-focus on the newly added image.
