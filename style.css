@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#game-container {
+  width: 1000px;
+  height: 700px;
+  position: relative;
+  box-sizing: content-box;
+}
+
+#img-picker {
+  display: none;
+}
+.game-border {
+  border: 3px solid black;
+}
+
+.add-btn {
+  position: absolute;
+  right: -46px;
+  top: -3px;
+  background-color: white;
+  border: 3px solid black;
+  width: 45px;
+  height: 45px;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.1s linear;
+  cursor: pointer;
+}
+.add-btn:hover {
+  background-color: black;
+  color: white;
+}
+.add-btn:focus-visible {
+  outline: none;
+}
+.add-btn:active {
+  transform: scale(0.9);
+}
+
+.image-item {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  transition: all 0.1s linear;
+}
+
+.selected-image {
+  border: 5px rgb(28 53 191 / 84%) solid;
+}
